@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist managment</title>
+    <link rel="stylesheet" href="./main-css/main.css">
+    <link rel="stylesheet" href="./sourse/css/index.css">
+    <link rel="stylesheet" href="./sourse/css/pages.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <ul>
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./about-us.html">
+                        <li>About Us</li>
+                    </a>
+                    <a id="openPopup" class="open-popup-btn">
+                        <li>Contacts</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main about">
+        <div class="container">
+           <div class="about__content">
+                <div class="about__content_img">
+                    <img src="./img/ayan-img1.jpg" alt="">
+                </div>
+                <div class="about__content_text">
+                    <h1>Аян Отепберген</h1>
+                    <pre>Otepbergen Ayan-Kazakh actor of cinema and theatre. 
+Stuntman - @kazakhunionactionteam .
+
+Born in 1992.
+
+Options: 
+* Age: 28
+* Height: 185 cm
+* Аcting age: 14-18
+* Weight: 80 kg
+* Eye color: Dark brown
+* Hair color: Dark brown
+* Type of face – Asian
+
+
+Acted in many films in Kazakhstan.</pre>
+                        <button id="openPdfButton">Резюме</button>
+                </div>
+           </div>
+    </main>
+    <section class="galery">
+        <div class="container">
+            <div class="title">
+                <h2>Фотогалерея</h2>
+            </div>
+            <div class="galery__content">
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <div class="galery__card-img">
+                            <img src="./img/ayan-img1.jpg" alt="">
+                            <img src="./img/ayan-img2.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="galery__card-img">
+                            <img src="./img/ayan-img3.jpg" alt="">
+                            <img src="./img/ayan-img4.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="afisha">
+        <div class="container">
+            <div class="title">
+                <h2>Афишы</h2>
+            </div>
+            <div class="afisha__content">
+                <div class="film-card">
+                  <div class="poster">
+                      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/10768063/49425ff1-4ebe-4d57-a0d9-f7cfb0cd686d/280x420" alt="SHULAMAH">
+                    </a>
+                  </div>
+                  <div class="info">
+                    <div class="title">SHULAMAH</div>
+                    <div class="subtitle">2023, мюзикл</div>
+                  </div>
+                </div>
+            
+                <div class="film-card">
+                  <div class="poster">
+                    <a href="/film/5405275/">
+                      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/7f39424a-2b85-4b83-85e1-e32f0e3ea232/280x420" alt="Бешбармак">
+                    </a>
+                  </div>
+                  <div class="info">
+                    <div class="title">Бешбармак</div>
+                    <div class="subtitle">2023, комедия</div>
+                  </div>
+                </div>
+            
+                <div class="film-card">
+                  <div class="poster">
+                    <a href="/series/5407131/">
+                      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/0ab6fef2-6d64-49dc-8c04-d3a4718611ba/280x420" alt="Бизнесмен">
+                    </a>
+                  </div>
+                  <div class="info">
+                    <div class="title">Бизнесмен</div>
+                    <div class="subtitle">2021, криминал</div>
+                  </div>
+                </div>
+            
+                <div class="film-card">
+                  <div class="poster">
+                    <a href="/film/1127372/">
+                      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/138f6233-0bad-42de-b996-59f0409440a8/280x420" alt="Томирис">
+                    </a>
+                  </div>
+                  <div class="info">
+                    <div class="title">Томирис</div>
+                    <div class="subtitle">2019, биография</div>
+                  </div>
+                </div>
+                <div class="film-card">
+                    <div class="poster">
+                      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/87daa52f-4887-4c39-bcd3-5cb39db3a8d8/280x420" alt="Золотой трон">
+                    </div>
+                    <div class="info">
+                      <div class="title">Золотой трон</div>
+                      <div class="subtitle">2019, драма</div>
+                    </div>
+                  </div>
+            
+                  <div class="film-card">
+                    <div class="poster">
+                      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/843e81e1-01a5-41a3-9c68-e66d3e7beb74/280x420" alt="Алмазный меч">
+                    </div>
+                    <div class="info">
+                      <div class="title">Алмазный меч</div>
+                      <div class="subtitle">2016, драма</div>
+                    </div>
+                  </div>
+            
+                  <div class="film-card">
+                    <div class="poster">
+                      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/10835644/282fdaad-0b6d-4975-b9e1-60b50b3ed614/280x420" alt="Рэкетир 2">
+                    </div>
+                    <div class="info">
+                      <div class="title">Рэкетир 2</div>
+                      <div class="subtitle">2015, боевик</div>
+                    </div>
+                  </div>
+            
+                  <div class="film-card">
+                    <div class="poster">
+                      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/494c30d9-c9b5-4625-9d2d-d299d02115cd/280x420" alt="Войско Мын Бала">
+                    </div>
+                    <div class="info">
+                      <div class="title">Войско Мын Бала</div>
+                      <div class="subtitle">2012, военный</div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            
+        </div>
+    </footer>
+
+    <div id="popup" class="popup hidden">
+        <div class="popup-content">
+            <span id="closePopup" class="close">&times;</span>
+            <h2>Для сотрудничества, напишите нам :)</h2>
+            <p>Выберите удобный способ для связи, в скором времени мы вам ответим</p>
+            <div class="buttons">
+                <button onclick="window.location.href='https://wa.me/your-number'">написать на whatsapp</button>
+                <button onclick="window.location.href='mailto:your-email@example.com'">написать на почту</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('openPdfButton').addEventListener('click', function() {
+            window.open('./img/AYAN OTEPBERGEN.pdf', '_blank');
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+        });
+    </script>   
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>
